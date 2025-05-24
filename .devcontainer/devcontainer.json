@@ -1,0 +1,30 @@
+{
+  "name": "C# (.NET)",
+  "mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind"
+  ],
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "noble"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "davidanson.vscode-markdownlint",
+        "esbenp.prettier-vscode",
+        "fernandoescolar.vscode-solution-explorer",
+        "sonarsource.sonarlint-vscode",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.vscodeintellicode-csharp",
+        "vscode-icons-team.vscode-icons",
+        "kreativ-software.csharpextensions"
+      ]
+    }
+  }
+}
