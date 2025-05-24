@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C#: Debug (console)",
+      "type": "dotnet",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "projectPath": "${workspaceFolder}/src/Bootcamp.Exemplo/Bootcamp.Exemplo.csproj"
+    },
+    {
+      "name": ".NET Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/Bootcamp.Exemplo/bin/Debug/.net8.0/Bootcamp.Exemplo.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Attach",
+      "type": "coreclr",
+      "request": "attach"
+    }
+  ]
+}
