@@ -17,7 +17,7 @@
 # Dockerfile for development with VS Code
 # More info at https://github.com/portfolio-2025br/bootcamp-wex
 
-FROM mcr.microsoft.com/vscode/devcontainers/base:noble@sha256:4c8b0c0465d6452808c2c97920da968fee7a128ba3bcdf2c79e2b6684c9b65dc
+FROM mcr.microsoft.com/vscode/devcontainers/base:noble@sha256:763eca1839b2c6366f25b9c2b4c75c46e3d485a8d1b95f725e829397398a4c46
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
