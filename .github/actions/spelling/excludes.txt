@@ -9,3 +9,6 @@
 
 # Ignore directories named `tmp`
 (?:^|/)tmp/
+
+# Binary files
+^\Qsrc/Bootcamp.Estacionamento/diagrama_classe_estacionamento.png\E$

@@ -17,6 +17,7 @@ davidanson
 DEBIAN
 devcontainer
 digicert
+dio
 dotnet
 dotnettools
 ecr
@@ -40,6 +41,8 @@ kreativ
 markdownlint
 misconfig
 Mozilla
+opcao
+preco
 prismacloud
 pypi
 Qube
@@ -56,6 +59,8 @@ stdlib
 terraform
 trivy
 USENAME
+UTF
+veiculos
 vscodeintellicode
 wex
 workflows
