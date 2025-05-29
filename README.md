@@ -8,6 +8,7 @@
 [![Analise Estática](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/linter.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/linter.yml)
 [![Ortografia](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/spelling.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/spelling.yml)
 [![Scanner de Segurança](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/trivy.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/trivy.yml)
+
 [![License][shieldLicense]](LICENSE.txt)
 
 </div>
