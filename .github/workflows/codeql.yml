@@ -52,6 +52,7 @@ jobs:
           egress-policy: block
           allowed-endpoints: >
             api.github.com:443
+            api.nuget.org:443
             github.com:443
             objects.githubusercontent.com:443
             uploads.github.com:443
