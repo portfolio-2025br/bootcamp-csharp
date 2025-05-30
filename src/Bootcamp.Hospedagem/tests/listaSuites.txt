@@ -1,0 +1,4 @@
+Quarto, 1, 15
+Quarto Casal, 2, 20
+Suíte, 2, 30
+Suíte Premium, 4, 40

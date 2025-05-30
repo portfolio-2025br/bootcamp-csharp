@@ -17,7 +17,6 @@ davidanson
 DEBIAN
 devcontainer
 digicert
-dio
 dotnet
 dotnettools
 ecr
@@ -25,7 +24,6 @@ editorconfig
 EFFECTNAME
 esbenp
 esm
-Exe
 fernandoescolar
 fullname
 gcr
@@ -41,8 +39,6 @@ kreativ
 markdownlint
 misconfig
 Mozilla
-opcao
-preco
 prismacloud
 pypi
 Qube
@@ -59,8 +55,6 @@ stdlib
 terraform
 trivy
 USENAME
-UTF
-veiculos
 vscodeintellicode
 wex
 workflows
