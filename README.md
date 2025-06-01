@@ -21,7 +21,7 @@ Work in Progress: este repositório foi concebido para ser usado como o meu port
 
 1. [Introdução](#introdução)
 2. [Sobre Este Projeto](#sobre-este-projeto)
-3. [Sobre Este Mim](#sobre-mim)
+3. [Sobre Mim](#sobre-mim)
 4. [Contribuir](#contribuir)
 5. [Agradecimentos e Contato](#agradecimentos-e-contato)
 6. [Licença](#licença)
