@@ -25,7 +25,7 @@ module.exports = {
 
   rules: {
     'body-case': [2, 'always', 'sentence-case'],
-    'body-max-line-length': [1, 'always', 72],
+    'body-max-line-length': [1, 'always', 85],
     'header-max-length': [1, 'always', 55],
     'type-enum': [
       2,
