@@ -1,3 +1,4 @@
+Abstracao
 aquasecurity
 autobuild
 aws
@@ -39,6 +40,7 @@ kreativ
 markdownlint
 misconfig
 Mozilla
+POO
 prismacloud
 pypi
 Qube
