@@ -9,7 +9,7 @@
 [![Ortografia](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/spelling.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/spelling.yml)
 [![Scanner de Segurança](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/trivy.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/trivy.yml)
 
-[![License][shieldLicense]](LICENSE.txt)
+[![Licença][shieldLicense]](LICENSE.txt)
 
 </div>
 
@@ -112,4 +112,4 @@ GNU General Public License v2.0.
 
 <!-- markdownlint-enable MD033 -->
 
-[shieldLicense]: https://img.shields.io/badge/License-GPL%20v2-blue.svg
+[shieldLicense]: https://img.shields.io/badge/License-GPL%20v2-blue.svg?label=Licen%C3%A7a
