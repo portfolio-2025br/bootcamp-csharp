@@ -1,5 +1,5 @@
 {
   "threshold": 0,
   "noSymlinks": true,
-  "ignore": ["**/bin/**", "**/obj/**", "**/.git/**"]
+  "ignore": ["**/bin/**", "**/obj/**", "**/.git/**", "**/Bootcamp.SQL/**"]
 }

@@ -55,9 +55,11 @@ slmail
 sln
 sonarlint
 sonarsource
+sqlfluff
 stdlib
 terraform
 trivy
+tsql
 USENAME
 vscodeintellicode
 wex
