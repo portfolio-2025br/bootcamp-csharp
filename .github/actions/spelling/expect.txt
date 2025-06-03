@@ -4,6 +4,8 @@ autobuild
 aws
 bootcamp
 Cfg
+checkov
+CKV
 CLASSNAME
 claudioandre
 codeql
