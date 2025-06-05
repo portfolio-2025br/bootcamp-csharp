@@ -12,3 +12,7 @@
 
 # Ignore all files in Bootcamp folder
 (?:^|/)src/Bootcamp.*/
+
+# Ignore binary files
+[^/]\.pdf$
+^\QBootcamp.QA/US 1 - Mind Map.png\E$

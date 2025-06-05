@@ -20,6 +20,7 @@ davidanson
 DEBIAN
 devcontainer
 digicert
+dio
 dotnet
 dotnettools
 ecr
@@ -42,6 +43,7 @@ kreativ
 markdownlint
 misconfig
 Mozilla
+pdf
 POO
 prismacloud
 pypi
