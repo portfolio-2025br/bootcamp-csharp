@@ -93,7 +93,22 @@
     )
 
     // Expand "target" if it's not a jQuery object already.
-    if (typeof config.target != 'jQuery') config.target = $(config.target)
+    if (typeof config.target != 'jQuery') {
+      try {
+        // Ensure config.target is a valid CSS selector or DOM element.
+        if (typeof config.target === 'string' && config.target.trim().charAt(0) !== '<') {
+          config.target = $(config.target);
+        } else if (config.target instanceof HTMLElement || config.target instanceof jQuery) {
+          config.target = $(config.target);
+        } else {
+          console.error('Invalid target specified in userConfig. Falling back to default target.');
+          config.target = $this; // Default to the current element.
+        }
+      } catch (e) {
+        console.error('Error processing target in userConfig:', e);
+        config.target = $this; // Default to the current element.
+      }
+    }
 
     // Panel.
 
