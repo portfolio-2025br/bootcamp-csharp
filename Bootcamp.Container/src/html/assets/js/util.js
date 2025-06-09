@@ -104,7 +104,14 @@
             console.error('Invalid target specified in userConfig. Falling back to default target.');
             config.target = $this; // Default to the current element.
           } else {
-            config.target = $(config.target);
+            // Validate CSS selector using a regular expression.
+            var cssSelectorRegex = /^[a-zA-Z0-9_\-#.:]+$/;
+            if (cssSelectorRegex.test(config.target.trim())) {
+              config.target = $(config.target);
+            } else {
+              console.error('Invalid CSS selector specified in userConfig. Falling back to default target.');
+              config.target = $this; // Default to the current element.
+            }
           }
         } else if (config.target instanceof HTMLElement || config.target instanceof jQuery) {
           config.target = $(config.target);
