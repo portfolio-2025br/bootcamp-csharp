@@ -22,7 +22,7 @@ name: Trivy Schedule
 
 "on":
   schedule:
-    - cron: "23 5 * * MON"
+    - cron: "0 5 * * MON"
   push:
 
 permissions:
