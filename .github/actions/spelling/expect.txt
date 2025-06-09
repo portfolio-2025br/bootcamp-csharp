@@ -20,7 +20,7 @@ davidanson
 DEBIAN
 devcontainer
 digicert
-dio
+DIO
 dotnet
 dotnettools
 ecr
