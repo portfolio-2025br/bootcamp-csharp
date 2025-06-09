@@ -70,6 +70,9 @@ jobs:
           FIX_SHELL_SHFMT: true
           FIX_TERRAFORM_FMT: true
           FIX_YAML_PRETTIER: true
+          VALIDATE_CSS: false # Há muito código importado que não passa
+          VALIDATE_JAVASCRIPT_ES: false # Há muito código importado que não passa
+          VALIDATE_JAVASCRIPT_STANDARD: false # Há muito código importado que não passa
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FILTER_REGEX_EXCLUDE: "^/github/workspace/src/Bootcamp.*/README.md$" # Ignore the external file

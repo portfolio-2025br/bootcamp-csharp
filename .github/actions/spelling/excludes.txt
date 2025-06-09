@@ -12,6 +12,7 @@
 
 # Ignore all files in Bootcamp folder
 (?:^|/)src/Bootcamp.*/
+(?:^|/)Bootcamp.Container/
 
 # Ignore binary files
 [^/]\.pdf$
