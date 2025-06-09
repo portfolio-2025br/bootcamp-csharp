@@ -84,6 +84,8 @@
         side: null,
 
         // Target element for "class".
+        // Must be a valid CSS selector, DOM element, or jQuery object.
+        // Strings starting with '<' are not allowed to prevent XSS vulnerabilities.
         target: $this,
 
         // Class to toggle.
@@ -96,8 +98,14 @@
     if (typeof config.target != 'jQuery') {
       try {
         // Ensure config.target is a valid CSS selector or DOM element.
-        if (typeof config.target === 'string' && config.target.trim().charAt(0) !== '<') {
-          config.target = $(config.target);
+        if (typeof config.target === 'string') {
+          // Reject strings starting with '<' to prevent HTML interpretation.
+          if (config.target.trim().charAt(0) === '<') {
+            console.error('Invalid target specified in userConfig. Falling back to default target.');
+            config.target = $this; // Default to the current element.
+          } else {
+            config.target = $(config.target);
+          }
         } else if (config.target instanceof HTMLElement || config.target instanceof jQuery) {
           config.target = $(config.target);
         } else {
