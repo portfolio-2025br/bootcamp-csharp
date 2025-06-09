@@ -41,6 +41,7 @@ jobs:
           egress-policy: block
           allowed-endpoints: >
             api.github.com:443
+            check.trivy.dev:443
             d2glxqk2uabbnd.cloudfront.net:443
             ghcr.io:443
             github.com:443
