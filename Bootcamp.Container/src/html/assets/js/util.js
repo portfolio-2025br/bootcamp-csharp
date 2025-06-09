@@ -101,27 +101,37 @@
         if (typeof config.target === 'string') {
           // Reject strings starting with '<' to prevent HTML interpretation.
           if (config.target.trim().charAt(0) === '<') {
-            console.error('Invalid target specified in userConfig. Falling back to default target.');
-            config.target = $this; // Default to the current element.
+            console.error(
+              'Invalid target specified in userConfig. Falling back to default target.'
+            )
+            config.target = $this // Default to the current element.
           } else {
             // Validate CSS selector using a regular expression.
             try {
               // Use jQuery.find to safely interpret CSS selectors.
-              config.target = $.find(config.target.trim());
+              config.target = $.find(config.target.trim())
             } catch (e) {
-              console.error('Invalid CSS selector specified in userConfig or error during processing. Falling back to default target:', e);
-              config.target = $this; // Default to the current element.
+              console.error(
+                'Invalid CSS selector specified in userConfig or error during processing. Falling back to default target:',
+                e
+              )
+              config.target = $this // Default to the current element.
             }
           }
-        } else if (config.target instanceof HTMLElement || config.target instanceof jQuery) {
-          config.target = $(config.target);
+        } else if (
+          config.target instanceof HTMLElement ||
+          config.target instanceof jQuery
+        ) {
+          config.target = $(config.target)
         } else {
-          console.error('Invalid target specified in userConfig. Falling back to default target.');
-          config.target = $this; // Default to the current element.
+          console.error(
+            'Invalid target specified in userConfig. Falling back to default target.'
+          )
+          config.target = $this // Default to the current element.
         }
       } catch (e) {
-        console.error('Error processing target in userConfig:', e);
-        config.target = $this; // Default to the current element.
+        console.error('Error processing target in userConfig:', e)
+        config.target = $this // Default to the current element.
       }
     }
 
