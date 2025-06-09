@@ -105,11 +105,11 @@
             config.target = $this; // Default to the current element.
           } else {
             // Validate CSS selector using a regular expression.
-            var cssSelectorRegex = /^[a-zA-Z0-9_\-#.:]+$/;
-            if (cssSelectorRegex.test(config.target.trim())) {
-              config.target = $(config.target);
-            } else {
-              console.error('Invalid CSS selector specified in userConfig. Falling back to default target.');
+            try {
+              // Use jQuery.find to safely interpret CSS selectors.
+              config.target = $.find(config.target.trim());
+            } catch (e) {
+              console.error('Invalid CSS selector specified in userConfig or error during processing. Falling back to default target:', e);
               config.target = $this; // Default to the current element.
             }
           }
