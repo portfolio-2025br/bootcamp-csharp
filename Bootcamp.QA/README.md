@@ -1,6 +1,6 @@
 # DIO - Trilha End-to-End - Quality Assurance
 
-<www.dio.me>
+<https://www.dio.me/>
 
 ## Desafio de projeto
 
