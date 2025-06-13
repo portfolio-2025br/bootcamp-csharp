@@ -71,11 +71,11 @@ jobs:
             cspell:docker/src/docker-words.txt
             cspell:shell/dict/shell-all-words.txt
             cspell:pt_BR/src/hunspell/index.dic
-          ignore-pattern: "[^'a-záéíóúñçãêõüA-ZÁÉÍÓÚÑÇÃÕÊÜ]"
-          upper-pattern: "[A-ZÁÉÍÓÚÑÇÃÕÊÜ]"
-          lower-pattern: "[a-záéíóúñçãêõü]"
-          not-lower-pattern: "[^a-záéíóúñçãêõü]"
-          not-upper-or-lower-pattern: "[^A-ZÁÉÍÓÚÑÇÃÕÊÜa-záéíóúñçãêõü]"
+          ignore-pattern: "[^'a-záéíóúñçãâêõüA-ZÁÉÍÓÚÑÇÃÂÕÊÜ]"
+          upper-pattern: "[A-ZÁÉÍÓÚÑÇÃÂÕÊÜ]"
+          lower-pattern: "[a-záéíóúñçãâêõü]"
+          not-lower-pattern: "[^a-záéíóúñçãâêõü]"
+          not-upper-or-lower-pattern: "[^A-ZÁÉÍÓÚÑÇÃÂÕÊÜa-záéíóúñçãâêõü]"
           punctuation-pattern: "'"
 
   comment:

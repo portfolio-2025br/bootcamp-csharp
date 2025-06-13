@@ -17,3 +17,4 @@
 # Ignore binary files
 [^/]\.pdf$
 ^\QBootcamp.QA/US 1 - Mind Map.png\E$
+^\QBootcamp.Nuvem/Babelfish.png\E$

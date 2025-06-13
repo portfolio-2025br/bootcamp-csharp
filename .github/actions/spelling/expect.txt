@@ -1,7 +1,9 @@
+Abstergo
 Abstracao
 aquasecurity
 autobuild
 aws
+Babelfish
 bootcamp
 Cfg
 checkov
@@ -45,6 +47,7 @@ misconfig
 Mozilla
 pdf
 POO
+Postgre
 prismacloud
 pypi
 Qube
