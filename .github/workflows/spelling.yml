@@ -46,6 +46,7 @@ jobs:
       - name: Harden Runner
         uses: step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863 # v2.12.1
         with:
+          # sudo is required, some packages are installed by the check-spelling action
           egress-policy: block
           allowed-endpoints: >
             api.github.com:443
