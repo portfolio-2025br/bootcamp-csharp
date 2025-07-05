@@ -1,5 +1,6 @@
 {
   "version": "0.2.0",
+  "_comment": "Define como o Visual Studio Code deve lidar com a depuração do projeto.",
   "configurations": [
     {
       "name": "C#: Debug (console)",
@@ -9,7 +10,7 @@
       "projectPath": "${workspaceFolder}/src/Bootcamp.Exemplo/Bootcamp.Exemplo.csproj"
     },
     {
-      "name": ".NET Launch (console)",
+      "name": ".NET Depurar",
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
