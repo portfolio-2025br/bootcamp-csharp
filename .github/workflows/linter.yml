@@ -75,7 +75,7 @@ jobs:
           VALIDATE_JAVASCRIPT_STANDARD: false # Há muito código importado que não passa
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FILTER_REGEX_EXCLUDE: "^/github/workspace/src/Bootcamp.*/README.md$" # Ignore the external file
+          FILTER_REGEX_EXCLUDE: "(^|/)(Bootcamp.*|bootcamp.sln)$" # Ignore the external file
 
       - name: Check
         run: |
