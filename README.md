@@ -11,9 +11,11 @@
 
 [![Licença][shieldLicense]](LICENSE.txt)
 
-</div>
+Este repositório é parte do meu portfolio
 
-Work in Progress: este repositório foi concebido para ser usado como o meu portfolio.
+![WIP](https://github.com/portfolio-2025br/bootcamp-gft/raw/main/images/WIP.png)
+
+</div>
 
 ## Índice
 
