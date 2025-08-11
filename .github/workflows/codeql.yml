@@ -25,7 +25,7 @@ name: "CodeQL"
     branches: ["main"]
   push:
   schedule:
-    - cron: "0 2 * * MON"
+    - cron: "0 2 * * SAT"
 
 permissions:
   contents: read
