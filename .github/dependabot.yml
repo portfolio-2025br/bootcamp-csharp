@@ -25,6 +25,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "saturday"
+      time: "06:00"
 
   - package-ecosystem: devcontainers
     commit-message:
@@ -33,6 +34,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "saturday"
+      time: "06:00"
 
   # vscode/devcontainers/base
   - package-ecosystem: docker
@@ -42,3 +44,4 @@ updates:
     schedule:
       interval: "weekly"
       day: "saturday"
+      time: "06:00"
