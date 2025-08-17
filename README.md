@@ -19,7 +19,7 @@ Este repositório é parte do meu portfolio
 
 ## Índice
 
-<img align="right" src="images/logo.png" width="125" height="120" alt="End-to-end logo">
+<img align="right" src="images/logo.png" width="192" height="128" alt="End-to-end logo">
 
 1. [Introdução](#introdução)
 2. [Sobre Este Projeto](#sobre-este-projeto)
