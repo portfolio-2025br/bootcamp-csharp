@@ -15,7 +15,7 @@
 # https://www.gnu.org/licenses/gpl-2.0.html
 # ################################################################################
 # Inform Git which files and folders to ignore (based on a template)
-# More info at https://github.com/portfolio-2025br/bootcamp-wex
+# More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
 # Build results
 [Dd]ebug/

@@ -1,5 +1,11 @@
 {
   "threshold": 0,
   "noSymlinks": true,
-  "ignore": ["**/bin/**", "**/obj/**", "**/.git/**", "**/Bootcamp.*/**"]
+  "ignore": [
+    "**/bin/**",
+    "**/obj/**",
+    "**/.git/**",
+    "**/src.*/**",
+    "**/Bootcamp.*/**"
+  ]
 }

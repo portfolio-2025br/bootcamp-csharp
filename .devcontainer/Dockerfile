@@ -15,14 +15,14 @@
 # https://www.gnu.org/licenses/gpl-2.0.html
 # ################################################################################
 # Dockerfile for development with VS Code
-# More info at https://github.com/portfolio-2025br/bootcamp-wex
+# More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
-FROM mcr.microsoft.com/vscode/devcontainers/base:noble@sha256:763eca1839b2c6366f25b9c2b4c75c46e3d485a8d1b95f725e829397398a4c46
+FROM mcr.microsoft.com/devcontainers/dotnet:1-8.0@sha256:e01490469326f96a758cafe2b35110da91f6b288469a06788f680f0948f741b8
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
-        dotnet-sdk-8.0=* nodejs=* zlib1g=* \
+        nodejs=* \
     # Clean up
     && apt-get -y clean \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*

@@ -15,7 +15,7 @@
 # https://www.gnu.org/licenses/gpl-2.0.html
 # ################################################################################
 # GitHub Action to run some linters
-# More info at https://github.com/portfolio-2025br/bootcamp-wex
+# More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
 ---
 name: "Linter de Código e Arquivos"
@@ -75,7 +75,7 @@ jobs:
           VALIDATE_JAVASCRIPT_STANDARD: false # Há muito código importado que não passa
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FILTER_REGEX_EXCLUDE: "(^|/)(Bootcamp.*|bootcamp.sln)$" # Ignore the external file
+          FILTER_REGEX_EXCLUDE: "(^|/)(Bootcamp.*|GFT.sln|WEX.sln)$" # Ignore external files and legacy
 
       - name: Check
         run: |

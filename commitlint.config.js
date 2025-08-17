@@ -15,7 +15,7 @@
 // https://www.gnu.org/licenses/gpl-2.0.html
 // ################################################################################
 // Commit linter configuration file
-// More info at https://github.com/portfolio-2025br/bootcamp-wex
+// More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
 module.exports = {
   extends: ['@commitlint/config-conventional'],

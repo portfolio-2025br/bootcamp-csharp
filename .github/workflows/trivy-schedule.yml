@@ -15,7 +15,7 @@
 # https://www.gnu.org/licenses/gpl-2.0.html
 # ################################################################################
 # GitHub Action to run Trivy SBOM
-# More info at https://github.com/portfolio-2025br/bootcamp-wex
+# More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
 ---
 name: Trivy Schedule
@@ -38,7 +38,7 @@ jobs:
       security-events: write
 
     if:
-      github.repository == 'portfolio-2025br/bootcamp-wex' && github.ref == 'refs/heads/main' &&
+      github.repository == 'portfolio-2025br/bootcamp-csharp' && github.ref == 'refs/heads/main' &&
       (github.event_name == 'push' || github.event_name == 'schedule')
     steps:
       - name: Harden Runner
@@ -78,10 +78,12 @@ jobs:
           output: "dependency-results.sbom.json"
           image-ref: "."
           github-pat: ${{ secrets.GITHUB_TOKEN }}
+          trivy-config: trivy.yaml
         env:
           TRIVY_DB_REPOSITORY: ghcr.io/aquasecurity/trivy-db,public.ecr.aws/aquasecurity/trivy-db
           TRIVY_USERNAME: ${{ github.actor }}
           TRIVY_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+          TRIVY_SKIP_DIRS: "Bootcamp.Azure/"
 
       - name: Run Trivy vulnerability scanner with rootfs command
         uses: aquasecurity/trivy-action@dc5a429b52fcf669ce959baa2c2dd26090d2a6c4 # 0.32.0
@@ -91,10 +93,12 @@ jobs:
           scanners: vuln,secret,misconfig,license
           format: "sarif"
           output: "trivy-results.sarif"
+          trivy-config: trivy.yaml
         env:
           TRIVY_DB_REPOSITORY: ghcr.io/aquasecurity/trivy-db,public.ecr.aws/aquasecurity/trivy-db
           TRIVY_USERNAME: ${{ github.actor }}
           TRIVY_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+          TRIVY_SKIP_DIRS: "Bootcamp.Azure/"
 
       - name: Upload Trivy scan results to GitHub Security tab
         uses: github/codeql-action/upload-sarif@df559355d593797519d70b90fc8edd5db049e7a2 # v3.29.9

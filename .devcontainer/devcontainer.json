@@ -17,13 +17,11 @@
       "extensions": [
         "davidanson.vscode-markdownlint",
         "esbenp.prettier-vscode",
-        "fernandoescolar.vscode-solution-explorer",
         "sonarsource.sonarlint-vscode",
         "ms-dotnettools.csharp",
         "ms-dotnettools.csdevkit",
         "ms-dotnettools.vscodeintellicode-csharp",
-        "vscode-icons-team.vscode-icons",
-        "kreativ-software.csharpextensions"
+        "vscode-icons-team.vscode-icons"
       ]
     }
   }

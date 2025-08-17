@@ -16,7 +16,7 @@
 # https://www.gnu.org/licenses/gpl-2.0.html
 # ################################################################################
 # Formatting preferences
-# More info at https://github.com/portfolio-2025br/bootcamp-wex
+# More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
 # C# files
 [*.cs]

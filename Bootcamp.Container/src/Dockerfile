@@ -15,7 +15,7 @@
 # https://www.gnu.org/licenses/gpl-2.0.html
 # ################################################################################
 # Dockerfile for development with VS Code
-# More info at https://github.com/portfolio-2025br/bootcamp-wex
+# More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
 FROM python:3.13.4-alpine3.22
 

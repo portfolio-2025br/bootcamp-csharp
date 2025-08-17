@@ -12,10 +12,9 @@
 
 # Ignore all files in Bootcamp folder
 (?:^|/)src/Bootcamp.*/
-(?:^|/)Bootcamp.Container/
+(?:^|/)Bootcamp.*/
 
 # Ignore binary files
 [^/]\.pdf$
+[^/]\.png$
 ^\QBootcamp.QA/US 1 - Mind Map.png\E$
-^\QBootcamp.Nuvem/Babelfish.png\E$
-^\QBootcamp.Nuvem/File-Gateway.png\E$

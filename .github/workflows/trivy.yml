@@ -15,7 +15,7 @@
 # https://www.gnu.org/licenses/gpl-2.0.html
 # ################################################################################
 # GitHub Action to run Trivy scanner
-# More info at https://github.com/portfolio-2025br/bootcamp-wex
+# More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
 ---
 name: "Scanner de Segurança"
@@ -59,7 +59,9 @@ jobs:
           scan-type: "fs"
           scanners: vuln,secret,misconfig,license
           exit-code: 1
+          trivy-config: trivy.yaml
         env:
           TRIVY_DB_REPOSITORY: ghcr.io/aquasecurity/trivy-db,public.ecr.aws/aquasecurity/trivy-db
           TRIVY_USERNAME: ${{ github.actor }}
           TRIVY_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+          TRIVY_SKIP_DIRS: "Bootcamp.Azure/"

@@ -8,7 +8,7 @@
 
 Por favor, relate os problemas em público imediatamente:
 
-- reporte os [problemas em issues](https://github.com/portfolio-2025br/bootcamp-wex/issues);
+- reporte os [problemas em issues](https://github.com/portfolio-2025br/bootcamp-csharp/issues);
 
 A comunidade responderá indicando as próximas etapas do tratamento da sua denúncia. Após a resposta inicial à sua
 denúncia, a equipe de segurança o manterá informado sobre o progresso e poderá solicitar informações adicionais.

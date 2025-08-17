@@ -16,6 +16,6 @@
 // https://www.gnu.org/licenses/gpl-2.0.html
 // ################################################################################
 // The Main method; it serves as the entry point of an application
-// More info at https://github.com/portfolio-2025br/bootcamp-wex
+// More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
 Console.WriteLine("Hello, World!");

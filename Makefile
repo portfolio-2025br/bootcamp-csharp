@@ -16,7 +16,7 @@
 # ################################################################################
 # Use a high level Makefile to shorten frequently used commands
 # - add all C# projects to the main solution (.sln) file
-# More info at https://github.com/portfolio-2025br/bootcamp-wex
+# More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
 build:
 	dotnet build

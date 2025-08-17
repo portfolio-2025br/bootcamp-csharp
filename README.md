@@ -4,22 +4,22 @@
 
 <div id="header" align="center">
 
-[![CodeQL](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/codeql.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/codeql.yml)
-[![Analise Estática](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/linter.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/linter.yml)
-[![Ortografia](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/spelling.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/spelling.yml)
-[![Scanner de Segurança](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/trivy.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-wex/actions/workflows/trivy.yml)
+[![CodeQL](https://github.com/portfolio-2025br/bootcamp-csharp/actions/workflows/codeql.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-csharp/actions/workflows/codeql.yml)
+[![Analise Estática](https://github.com/portfolio-2025br/bootcamp-csharp/actions/workflows/linter.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-csharp/actions/workflows/linter.yml)
+[![Ortografia](https://github.com/portfolio-2025br/bootcamp-csharp/actions/workflows/spelling.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-csharp/actions/workflows/spelling.yml)
+[![Scanner de Segurança](https://github.com/portfolio-2025br/bootcamp-csharp/actions/workflows/trivy.yml/badge.svg)](https://github.com/portfolio-2025br/bootcamp-csharp/actions/workflows/trivy.yml)
 
 [![Licença][shieldLicense]](LICENSE.txt)
 
 Este repositório é parte do meu portfolio
 
-![WIP](https://github.com/portfolio-2025br/bootcamp-gft/raw/main/images/WIP.png)
+![WIP](https://github.com/portfolio-2025br/bootcamp-csharp/raw/main/images/WIP.png)
 
 </div>
 
 ## Índice
 
-<img align="right" src="https://assets.dio.me/UYzF8-h9nevqvEIjQeMLhBv4mmH2lP7a5vLrJwEL9xs/f:webp/h:120/q:80/L3RyYWNrcy9lNTVhMTAwNy04NTc5LTQ1ODEtODJiZC1iZDI1OTJjNzI2ZGEucG5n" width="125" height="120" alt="End-to-end logo">
+<img align="right" src="images/logo.png" width="125" height="120" alt="End-to-end logo">
 
 1. [Introdução](#introdução)
 2. [Sobre Este Projeto](#sobre-este-projeto)
@@ -94,7 +94,7 @@ Sou pós graduado em Engenharia de Software, moro no Vale do Paraíba e tenho du
 
 Contribuições na forma de issues e pull requests são sempre bem-vindas!
 
-[![GitHub issues by-label](https://img.shields.io/github/issues/portfolio-2025br/bootcamp-wex/good%20first%20issue)](https://github.com/portfolio-2025br/bootcamp-wex/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+[![GitHub issues by-label](https://img.shields.io/github/issues/portfolio-2025br/bootcamp-csharp/good%20first%20issue)](https://github.com/portfolio-2025br/bootcamp-csharp/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 <p align="right">(<a href="#header">voltar ao topo</a>)</p>
 
@@ -102,7 +102,7 @@ Contribuições na forma de issues e pull requests são sempre bem-vindas!
 
 Nós temos orgulho de ser _Powered by Open Source Community_:
 
-- [Fale conosco via Issue ou Discussion](https://github.com/portfolio-2025br/bootcamp-wex/discussions).
+- [Fale conosco via Issue ou Discussion](https://github.com/portfolio-2025br/bootcamp-csharp/discussions).
 
 <p align="right">(<a href="#header">voltar ao topo</a>)</p>
 

@@ -15,7 +15,7 @@
 # https://www.gnu.org/licenses/gpl-2.0.html
 # ################################################################################
 # GitHub Action to scan dependency manifest files
-# More info at https://github.com/portfolio-2025br/bootcamp-wex
+# More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
 ---
 name: Dependency review
@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     name: dependency-review
 
-    if: github.repository == 'portfolio-2025br/bootcamp-wex'
+    if: github.repository == 'portfolio-2025br/bootcamp-csharp'
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
