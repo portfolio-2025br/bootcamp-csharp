@@ -42,7 +42,7 @@ resource "azurerm_network_security_group" "my_terraform_nsg" {
     source_port_range          = "*"
     #checkov:skip=CKV_AZURE_9:Máquina para testes IGNORAR o erro
     destination_port_range     = "3389"
-    source_address_prefix      = "*"
+    source_address_prefix      = "99.99.99.99" # Example IP
     destination_address_prefix = "*"
   }
   security_rule {
@@ -54,7 +54,7 @@ resource "azurerm_network_security_group" "my_terraform_nsg" {
     source_port_range          = "*"
     #checkov:skip=CKV_AZURE_160:Máquina para testes IGNORAR o erro
     destination_port_range     = "80"
-    source_address_prefix      = "*"
+    source_address_prefix      = "99.99.99.99" # Example IP
     destination_address_prefix = "*"
   }
 }
