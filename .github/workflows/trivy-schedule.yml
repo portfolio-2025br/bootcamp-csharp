@@ -59,14 +59,17 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false
 
       - name: GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJSON(github) }}
+          GITHUB_REF: ${{ github.ref }}
         run: |
-          echo ${{ github.repository }}
-          echo ${{ github.ref }}
-          echo ${{ github.event_name }}
+          echo "${{ github.repository }}"
+          echo "${GITHUB_REF}"
+          echo "${{ github.event_name }}"
           echo "--------------------------------------------------"
           echo "$GITHUB_CONTEXT"
 
