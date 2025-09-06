@@ -5,10 +5,13 @@ tráfego dos repositórios do GitHub.
 
 ## Estatísticas de tráfego dos repositórios GitHub
 
-Uma interface web simples para visualizar as estatísticas localmente (ou hospedadas no GitHub Pages). Eu uso localmente.
+Para visualizar as estatísticas desenvolveu-se uma interface web simples usando HTML, CSS e JavaScript. Esta interface
+pode ser usada localmente ou hospedada na Web, por exemplo, no GitHub Pages. Eu uso localmente.
 
-Como os dados são armazenados localmente, isto nos permite manter o histórico por um período superior aos 14 dias
-oferecidos pelo GitHub.
+O backend foi desenvolvido em Python.
+
+Como os dados são armazenados localmente pela solução, isto nos permite manter o histórico por um período superior aos
+14 dias oferecidos pelo GitHub.
 
 ### Conclusão
 
