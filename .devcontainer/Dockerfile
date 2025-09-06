@@ -17,7 +17,7 @@
 # Dockerfile for development with VS Code
 # More info at https://github.com/portfolio-2025br/bootcamp-csharp
 
-FROM mcr.microsoft.com/devcontainers/dotnet:9.0@sha256:b878b60a68aadab1a1d7e7ace12504073ce5a6ce568c785f54a9ef4b834e373f
+FROM mcr.microsoft.com/devcontainers/dotnet:9.0@sha256:9182c82253292f4572383b0b8ba56229a097dd250299abba5028c0c1d0da773d
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
