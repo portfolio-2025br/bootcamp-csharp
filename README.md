@@ -32,7 +32,9 @@ Este repositório é parte do meu portfolio
 
 > [!IMPORTANT]
 >
-> Este é um projeto usado para projeto, desenvolvimento e testes de software PoC.
+> Este é um repositório usado para projeto, desenvolvimento e testes de software PoC.\
+> **Algumas pastas foram movidas, então links externos podem ter quebrado. Por gentileza, consulte a pasta `Atividades`
+> se não encontrar alguma coisa.**
 
 <p align="right">(<a href="#header">voltar ao topo</a>)</p>
 

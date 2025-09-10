@@ -8,7 +8,7 @@ Destaco os seguintes pontos em minha proposta de solução:
   - prettier para formatação e padronização de códigos;
   - commitlint para validação e padronização da mensagem de commit;
   - uso de analisadores estáticos de código (codeQL) para validar a qualidade do código;
-  - atualizaçao automática de dependências com uso do Dependabot;
+  - atualização automática de dependências com uso do Dependabot;
   - testei o projeto localmente;
   - atuei para corrigir erros existentes no projeto original usado como modelo. Por exemplo:
     ```text
@@ -24,4 +24,4 @@ Destaco os seguintes pontos em minha proposta de solução:
     ```
 ## CI em Ação
 
-![CodeQL](../images/Test.png)
+![CodeQL](../../images/Test.png)
