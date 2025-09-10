@@ -38,10 +38,9 @@ img
 JAVASCRIPT
 jscpd
 markdownlint
-mcr
-microsoft
 misconfig
 Mozilla
+OAUTH
 POO
 prismacloud
 pypi
